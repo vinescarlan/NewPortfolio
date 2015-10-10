@@ -1,0 +1,102 @@
+html,
+body {
+  position: relative;
+  color: #606060;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#hamburger {
+  background: transparent;
+  height: 16px;
+  width: 23px;
+  position: fixed;
+  top: 20px;
+  left: 86vw;
+  z-index: 99;
+  cursor: pointer;
+}
+
+#hamburger a:before,
+#hamburger a:after,
+#hamburger span:before {
+  content: "";
+  background: #606060;
+  width: 23px;
+  height: 3px;
+  position: absolute;
+  transition: 0.4s ease-out;
+}
+
+#hamburger a:before {
+  top: 0;
+}
+
+#hamburger a:after {
+  top: 6px;
+}
+
+#hamburger span:before {
+  top: 12px;
+}
+
+.off-canvas-menu {
+  background: #606060;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: -100vw;
+  transition: 0.4s ease-out;
+}
+
+.nav-list {
+  margin: 60% 10px;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.nav-item {
+  font-size: 24px;
+  text-align: center;
+}
+
+.nav-item, .nav-item a {
+  color: #fff;
+}
+
+.nav-item a:hover {
+  color: #bcc6cc;
+}
+
+.menu-visible .off-canvas-menu {
+  transform: translateX(-100vw);
+}
+
+.menu-visible #hamburger a:before,
+.menu-visible #hamburger a:after,
+.menu-visible #hamburger span:before {
+  background: #fff;
+}
+
+.menu-visible #hamburger a:before {
+  opacity: 0;
+}
+
+.menu-visible #hamburger a:after {
+  transform: rotate(45deg);
+  top: 16px;
+}
+
+.menu-visible #hamburger span:before {
+  transform: rotate(-45deg);
+  top: 16px;
+}
