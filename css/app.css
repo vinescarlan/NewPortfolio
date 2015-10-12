@@ -198,7 +198,8 @@ header h3 {
 .project-definition,
 .source-code,
 article h3,
-article p {
+article p,
+address {
   text-align: left;
 }
 
@@ -276,4 +277,24 @@ footer .social-icons {
   width: 77px;
   height: 77px;
   margin: 7px 5px;
+}
+
+#personal-goals img {
+  width: 100%;
+  height: 100%;
+}
+
+#macbook-pro {
+  color: #bcc6cc;
+  text-align: center;
+}
+
+address a {
+  color: #00c8f8;
+  font-size: 18px;
+  font-style: normal;
+}
+
+#author-info footer {
+  margin-top: 90px;
 }
