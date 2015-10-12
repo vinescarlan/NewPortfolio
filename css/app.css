@@ -123,7 +123,6 @@ nav {
 
 .profile-name {
   font-weight: 400;
-  text-align: center;
   margin: 0;
   position: relative;
   bottom: 50px;
@@ -135,7 +134,6 @@ header {
 
 header h3 {
   font-weight: 400;
-  text-align: center;
   margin: auto 80px;
   color: #bcc6cc;
 }
@@ -143,7 +141,6 @@ header h3 {
 .showcase > h3,
 .showcase > p {
   margin: 0;
-  text-align: center;
 }
 
 .showcase > p {
