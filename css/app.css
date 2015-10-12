@@ -24,6 +24,17 @@ a {
   padding: 10px 35px;
 }
 
+.social-icons i {
+  color: #fff;
+  font-size: 30px;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+
+.social-icons i:hover {
+  color: #bcc6cc;
+}
+
 nav {
   position: fixed;
   z-index: 99;
@@ -220,19 +231,9 @@ footer h4 {
   margin: 30px auto -10px;
 }
 
-.social-icons {
+footer .social-icons {
   background: #606060;
   width: 111%;
   margin: 0 -15px 20px;
   padding: 5px 0;
-}
-
-.social-icons i {
-  font-size: 30px;
-  -webkit-transition: color 0.3s ease-out;
-  transition: color 0.3s ease-out;
-}
-
-.social-icons i:hover {
-  color: #bcc6cc;
 }
