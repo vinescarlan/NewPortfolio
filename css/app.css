@@ -40,6 +40,10 @@ nav {
   z-index: 99;
 }
 
+nav .social-icons {
+  text-align: center;
+}
+
 #hamburger {
   background: transparent;
   height: 16px;
@@ -89,7 +93,7 @@ nav {
 }
 
 .nav-list {
-  margin: 60% 10px;
+  margin: 60% 10px 5px;
   vertical-align: middle;
 }
 
