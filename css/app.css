@@ -133,6 +133,14 @@ nav {
 
 .page-content .button {
   line-height: 100px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.page-content .button:hover {
+  color: #fff;
+  background: #606060;
+  border-color: #606060;
 }
 
 .profile-name {
