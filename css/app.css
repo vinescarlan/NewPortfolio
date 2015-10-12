@@ -196,7 +196,9 @@ header h3 {
 
 .project-title,
 .project-definition,
-.source-code {
+.source-code,
+article h3,
+article p {
   text-align: left;
 }
 
@@ -256,4 +258,18 @@ footer .social-icons {
 
 #author-info header h3 {
   margin: auto 50px;
+}
+
+#skills {
+  margin-top: 50px;
+}
+
+#skills p {
+  margin-bottom: 40px;
+}
+
+#skills img {
+  width: 77px;
+  height: 77px;
+  margin: 5px;
 }
