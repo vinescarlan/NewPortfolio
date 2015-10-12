@@ -242,3 +242,18 @@ footer .social-icons {
   margin: 0 -15px 20px;
   padding: 5px 0;
 }
+
+#author-info {
+  background: url("../img/workspace.jpg") no-repeat;
+  background-size: 495px 350px;
+  background-position: -100px 0;
+}
+
+#author-info .profile-name,
+#author-info header h3 {
+  color: #fff;
+}
+
+#author-info header h3 {
+  margin: auto 50px;
+}
