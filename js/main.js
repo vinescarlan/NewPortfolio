@@ -13,4 +13,7 @@ $(document).foundation();
 
 	var menuIcon = document.getElementById("hamburger");
 	menuIcon.addEventListener("click", toggleNav);
+	
+	var contact = document.querySelector(".nav-item [href='info.html#contact']");
+	contact.onclick = toggleNav;
 })();
