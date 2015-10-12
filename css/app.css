@@ -156,6 +156,12 @@ header h3 {
   margin: 0 -15px;
 }
 
+.project-title,
+.project-definition,
+.source-code {
+  text-align: left;
+}
+
 .project-title {
   margin-top: 80px;
 }
