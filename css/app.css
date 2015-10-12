@@ -69,6 +69,8 @@ nav {
   height: 100vh;
   position: absolute;
   top: 0;
+  -ms-transform: translateX(100vw);
+  -webkit-transform: translateX(100vw);
   transform: translateX(100vw);
   transition: 0.4s ease-out;
 }
@@ -93,6 +95,8 @@ nav {
 }
 
 .menu-visible .off-canvas-menu {
+  -ms-transform: translateX(0vw);
+  -webkit-transform: translateX(0vw);
   transform: translateX(0vw);
 }
 
@@ -107,11 +111,15 @@ nav {
 }
 
 .menu-visible #hamburger a:after {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   top: 16px;
 }
 
 .menu-visible #hamburger span:before {
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   top: 16px;
 }
