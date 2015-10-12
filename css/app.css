@@ -182,6 +182,7 @@ header h3 {
 
 .showcase > p {
   color: #bcc6cc;
+  margin-bottom: -50px;
 }
 
 .project-item {
