@@ -1,6 +1,5 @@
 html,
 body {
-  position: relative;
   color: #606060;
   letter-spacing: 1px;
   overflow-x: hidden;
@@ -17,6 +16,11 @@ li {
 a {
   color: #bcc6cc;
   text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  z-index: 99;
 }
 
 #hamburger {
@@ -59,7 +63,7 @@ a {
   height: 100vh;
   position: absolute;
   top: 0;
-  right: -100vw;
+  transform: translateX(100vw);
   transition: 0.4s ease-out;
 }
 
@@ -83,7 +87,7 @@ a {
 }
 
 .menu-visible .off-canvas-menu {
-  transform: translateX(-100vw);
+  transform: translateX(0vw);
 }
 
 .menu-visible #hamburger a:before,
