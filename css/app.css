@@ -169,3 +169,51 @@ header h3 {
 .project-title {
   margin-top: 80px;
 }
+
+footer {
+  color: #fff;
+  background: #bcc6cc;
+  margin-top: 30px;
+}
+
+footer a,
+footer .button {
+  color: #fff;
+}
+
+footer .button {
+  border: 3px solid #fff;
+  padding: 10px 60px;
+}
+
+footer h4 {
+  margin: 40px auto 10px;
+}
+
+.marketing-message {
+  border: 3px solid #fff;
+  margin: 30px 10px 0;
+  height: 200px;
+}
+
+.marketing-message p {
+  font-size: 18px;
+  width: 240px;
+  margin: 30px auto -10px;
+}
+
+.social-icons {
+  background: #606060;
+  width: 111%;
+  margin: 0 -15px 20px;
+  padding: 5px 0;
+}
+
+.social-icons i {
+  font-size: 30px;
+  transition: color 0.3s ease-out;
+}
+
+.social-icons i:hover {
+  color: #bcc6cc;
+}
