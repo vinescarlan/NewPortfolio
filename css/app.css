@@ -6,11 +6,16 @@ body {
   overflow-x: hidden;
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   list-style-type: none;
 }
 
 a {
+  color: #bcc6cc;
   text-decoration: none;
 }
 
@@ -61,7 +66,6 @@ a {
 .nav-list {
   margin: 60% 10px;
   vertical-align: middle;
-  padding: 0;
 }
 
 .nav-item {
@@ -69,7 +73,8 @@ a {
   text-align: center;
 }
 
-.nav-item, .nav-item a {
+.nav-item,
+.nav-item a {
   color: #fff;
 }
 
@@ -99,4 +104,50 @@ a {
 .menu-visible #hamburger span:before {
   transform: rotate(-45deg);
   top: 16px;
+}
+
+.page-content {
+  padding-top: 150px;
+}
+
+.profile-name {
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  bottom: 50px;
+}
+
+header {
+  padding-bottom: 50px;
+}
+
+header h3 {
+  font-weight: 400;
+  text-align: center;
+  margin: auto 80px;
+  color: #bcc6cc;
+}
+
+.showcase > h3,
+.showcase > p {
+  margin: 0;
+  text-align: center;
+}
+
+.showcase > p {
+  color: #bcc6cc;
+}
+
+.project-item {
+  margin-top: 100px;
+}
+
+.live-site img {
+  width: 111%;
+  margin: 0 -15px;
+}
+
+.project-title {
+  margin-top: 80px;
 }
