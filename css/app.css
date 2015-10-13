@@ -50,7 +50,7 @@ nav .social-icons {
   width: 23px;
   position: fixed;
   top: 20px;
-  left: 86vw;
+  right: 20px;
   z-index: 99;
   cursor: pointer;
 }
