@@ -105,10 +105,28 @@ nav .social-icons {
 .nav-item,
 .nav-item a {
   color: #fff;
+  position: relative;
+  transition: 0.4s ease-out;
 }
 
 .nav-item a:hover {
   color: #bcc6cc;
+}
+
+.nav-item a::after {
+  content: "";
+  background: #bcc6cc;
+  width: 0;
+  height: 2px;
+  display: block;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  transition: 0.4s ease-out;
+}
+
+.nav-item a:hover::after {
+  width: 100%;
 }
 
 .menu-visible .off-canvas-menu {
