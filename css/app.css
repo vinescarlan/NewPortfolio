@@ -298,3 +298,75 @@ address a {
 #author-info footer {
   margin-top: 90px;
 }
+
+@media screen and (min-width: 600px) {
+  .nav-item {
+    font-size: 40px;
+  }
+  .social-icons i {
+    font-size: 40px;
+  }
+  header h3 {
+    padding: 100px 0;
+  }
+  .marketing-message {
+    width: 50%;
+    margin: 30px auto 0;
+  }
+  footer .social-icons {
+    width: auto;
+  }
+  #author-info {
+    background-size: 100vw 450px;
+    background-position: 0 0;
+  }
+  #author-info header {
+    padding-bottom: 0;
+  }
+  #personal-goals img {
+    margin: 50px auto 5px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .nav-list {
+    margin: 40vh auto 5px;
+  }
+  #hamburger {
+    right: 30px;
+  }
+  .live-site img {
+    width: 100%;
+    margin: auto;
+  }
+  .project-title {
+    margin-top: auto;
+  }
+  .showcase > p {
+    margin-bottom: auto;
+  }
+  .page-content .button {
+    line-height: 150px;
+  }
+  footer {
+    padding-bottom: 20px;
+  }
+  .marketing-message {
+    width: 100%;
+  }
+  footer .marketing-message .button {
+    line-height: 100px;
+  }
+  #author-info {
+    background-size: 100vw 800px;
+    background-position: 0 -150px;
+  }
+  #author-info header {
+    padding-bottom: 200px;
+  }
+  #author-info header h3 {
+    font-size: 40px;
+    margin: auto 200px;
+    padding-top: 80px;
+  }
+}
