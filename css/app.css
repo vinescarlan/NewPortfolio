@@ -302,6 +302,15 @@ footer .social-icons {
   height: 100%;
 }
 
+#personal-goals ul {
+  margin: auto 20px;
+}
+
+#personal-goals li {
+  list-style-type: disc;
+  text-align: left;
+}
+
 #macbook-pro {
   color: #bcc6cc;
   text-align: center;
