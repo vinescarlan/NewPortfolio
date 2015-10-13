@@ -329,8 +329,19 @@ address a {
 }
 
 @media screen and (min-width: 960px) {
+  .off-canvas-menu {
+    width: 25vw;
+  }
+  .nav-item {
+    font-size: 30px;
+  }
   #hamburger {
     right: 30px;
+  }
+  .menu-visible .off-canvas-menu {
+    -ms-transform: translateX(-350px);
+    -webkit-transform: translateX(100vw);
+    transform: translateX(75vw);
   }
   .live-site img {
     width: 100%;
