@@ -1,0 +1,29 @@
+[
+  {
+    "liveSite": "vinescarlan.ml/shutterbugg/index.html",
+    "image": "shutterbugg.jpg",
+    "title": "Shutterbugg",
+    "description": [
+      "Shutterbugg landing page"
+    ],
+    "sourceCode": "github.com/vinescarlan/Shutterbugg"
+  },
+  {
+    "liveSite": "vinescarlan.ml/flashcards/index.html",
+    "image": "flashcards.jpg",
+    "title": "FlashCards",
+    "description": [
+      "A simple web-based Flashcard app that you can use to test your web skills and knowledge."
+    ],
+    "sourceCode": "github.com/vinescarlan/FlashCards"
+  },
+  {
+    "liveSite": "vinescarlan.ml/paintthat/index.html",
+    "image": "paintthat.jpg",
+    "title": "PaintThat",
+    "description": [
+      "A simple painting web application built with HTML5 canvas, JavaScript, JQuery & Foundation 5 sliders."
+    ],
+    "sourceCode": "github.com/vinescarlan/PaintThat"
+  }
+]
