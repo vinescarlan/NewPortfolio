@@ -1,10 +1,19 @@
 [
   {
+    "liveSite": "vinescarlan.ml",
+    "image": "vinescarlan.jpg",
+    "title": "Melvin Escarlan Portfolio",
+    "description": [
+      "My portfolio showcasing my personal projects. This site is built with HTML5, CSS3, JavaScript, JQuery, Foundation 5, AJAX, JSON and iconfonts."
+    ],
+    "sourceCode": "github.com/vinescarlan/NewPortfolio"
+  },
+  {
     "liveSite": "vinescarlan.ml/shutterbugg/index.html",
     "image": "shutterbugg.jpg",
     "title": "Shutterbugg",
     "description": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui."
+      "A mockup landing page built with HTML5, CSS3, JavaScript, and Foundation 5 grid system and button. It originally uses Bootstrap grid system and button."
     ],
     "sourceCode": "github.com/vinescarlan/Shutterbugg"
   },
@@ -13,7 +22,7 @@
     "image": "flashcards.jpg",
     "title": "FlashCards",
     "description": [
-      "A simple web-based Flashcard app that you can use to test your web skills and knowledge."
+      "A simple web-based Flashcard app that you can use to test your web skills and knowledge. It randomly generates questions on each reload or by clicking NEXT button. Built with HTML5, CSS3, SASS/SCSS, Vanilla JavaScript, AJAX and JSON"
     ],
     "sourceCode": "github.com/vinescarlan/FlashCards"
   },
@@ -22,8 +31,17 @@
     "image": "paintthat.jpg",
     "title": "PaintThat",
     "description": [
-      "A simple painting web application built with HTML5 canvas, JavaScript, JQuery & Foundation 5 sliders."
+      "A simple painting web application with color preview, size, fill, undo and clear all tools included. Built with HTML5 canvas, JavaScript, JQuery & Foundation 5 sliders."
     ],
     "sourceCode": "github.com/vinescarlan/PaintThat"
+  },
+  {
+    "liveSite": "vinescarlan.ml/locatorui/index.html",
+    "image": "locatorui.jpg",
+    "title": "LocatorUI",
+    "description": [
+      "A simple, responsive UI that lets you locate branches (i.e. stores, resellers etc.) and nearby branches. Built with HTML5, CSS3, JavaScript, AJAX, and JSON"
+    ],
+    "sourceCode": "github.com/vinescarlan/LocatorUI"
   }
 ]
