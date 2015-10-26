@@ -1,0 +1,29 @@
+[
+  {
+    "liveSite": "vinescarlan.ml/shutterbugg/index.html",
+    "image": "shutterbugg.jpg",
+    "title": "Shutterbugg",
+    "description": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui."
+    ],
+    "sourceCode": "github.com/vinescarlan/Shutterbugg"
+  },
+  {
+    "liveSite": "vinescarlan.ml/flashcards/index.html",
+    "image": "flashcards.jpg",
+    "title": "FlashCards",
+    "description": [
+      "A simple web-based Flashcard app that you can use to test your web skills and knowledge."
+    ],
+    "sourceCode": "github.com/vinescarlan/FlashCards"
+  },
+  {
+    "liveSite": "vinescarlan.ml/paintthat/index.html",
+    "image": "paintthat.jpg",
+    "title": "PaintThat",
+    "description": [
+      "A simple painting web application built with HTML5 canvas, JavaScript, JQuery & Foundation 5 sliders."
+    ],
+    "sourceCode": "github.com/vinescarlan/PaintThat"
+  }
+]
